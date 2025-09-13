@@ -1,4 +1,4 @@
-# Multi-Solution Dependency Analyzer
+# Dependency Analyzer
 
 Interactive PowerShell tool for analyzing .NET solution dependencies with web-based visualization. This tool scans multiple Visual Studio solutions and projects, then generates an interactive HTML report showing dependency relationships, circular dependencies, and cross-solution references.
 
