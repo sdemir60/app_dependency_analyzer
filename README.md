@@ -25,20 +25,3 @@ Interactive PowerShell tool for analyzing .NET solution dependencies with web-ba
 powershell.exe -ExecutionPolicy Bypass -File .\multi-solution-dependency-analyzer.ps1 -RootPath "D:\OSYSTFS" -OutputPath "dependencies.html"
 ```
 
-## Output
-
-The tool generates an interactive HTML report containing:
-
-- Complete dependency graph visualization
-- Project and solution statistics
-- Interactive filtering and layout options
-- Detailed dependency information for each project
-- List of circular dependencies (if any)
-
-## Project Structure
-
-```
-├── multi-solution-dependency-analyzer.ps1  # Main PowerShell script
-├── dependencies.html                       # Generated HTML report (example)
-└── README.md                              # This file
-```
